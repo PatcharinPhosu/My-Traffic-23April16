@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="detail">
+
+        <item>รายละเอียดที่ 1</item>
+        <item>รายละเอียดที่ 2</item>
+        <item>รายละเอียดที่ 3</item>
+        <item>รายละเอียดที่ 4</item>
+        <item>รายละเอียดที่ 5</item>
+        <item>รายละเอียดที่ 6</item>
+        <item>รายละเอียดที่ 7</item>
+        <item>รายละเอียดที่ 8</item>
+        <item>รายละเอียดที่ 9</item>
+        <item>รายละเอียดที่ 10</item>
+        <item>รายละเอียดที่ 11</item>
+        <item>รายละเอียดที่ 12</item>
+        <item>รายละเอียดที่ 13</item>
+        <item>รายละเอียดที่ 14</item>
+        <item>รายละเอียดที่ 15</item>
+        <item>รายละเอียดที่ 16</item>
+        <item>รายละเอียดที่ 17</item>
+        <item>รายละเอียดที่ 18</item>
+        <item>รายละเอียดที่ 19</item>
+        <item>รายละเอียดที่ 20</item>
+
+    </string-array>
+
+</resources>
