@@ -21,16 +21,19 @@
             android:layout_height="wrap_content"
             android:text="New Text"
             android:id="@+id/textView2"
-            android:textSize="@dimen/h1"
-            android:textColor="@color/text" />
+            android:textSize="@dimen/h2"
+            android:textColor="@color/text"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="New Text"
             android:id="@+id/textView3"
-            android:textSize="@dimen/h2"
-            android:textColor="@color/text" />
+            android:textSize="@dimen/h3"
+            android:textColor="@color/text"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp" />
     </LinearLayout>
 
 </LinearLayout>

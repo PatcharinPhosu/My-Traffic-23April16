@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="thailand.phosu.patcharin.mytraffic.MainActivity"
-    android:background="@drawable/wall22">
+    android:background="@drawable/bg7">
 
     <TextView
         android:layout_width="wrap_content"
@@ -12,10 +12,11 @@
         android:text="@string/head"
         android:id="@+id/textView"
         android:textSize="@dimen/h1"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
 
         android:layout_centerHorizontal="true"
-        android:textColor="@color/text" />
+        android:textColor="@color/text"
+        android:textStyle="bold" />
 
     <Button
         android:layout_width="match_parent"
