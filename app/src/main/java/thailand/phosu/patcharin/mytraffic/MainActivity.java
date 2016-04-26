@@ -78,10 +78,16 @@ public class MainActivity extends AppCompatActivity {
         //Type3
         final String[] detailStrings = getResources().getStringArray(R.array.detail);
 
+        //Show detail
+        final String[] detailMoreStrings = getResources().getStringArray(R.array.detailMore);
+
+
+
+
 
 
         //Create ListView โดยการสร้าง instant ของ adapter
-        MyAdapter myAdapter = new MyAdapter(this, iconInts, titleStrings, detailStrings);
+        MyAdapter myAdapter = new MyAdapter(this, iconInts, titleStrings, detailStrings, detailMoreStrings);
         trafficListView.setAdapter(myAdapter);
 
         trafficListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -91,6 +97,7 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra("Title", titleStrings[position]);
                 intent.putExtra("Image", iconInts[position]);
                 intent.putExtra("Detail", detailStrings[position]);
+                intent.putExtra("DetailMore", detailMoreStrings[position]);
                 startActivity(intent);
 
             }// OnItemClick เมื่อไหร่ก็ตามที่มีการคลิก จะทำงานตรงนี้

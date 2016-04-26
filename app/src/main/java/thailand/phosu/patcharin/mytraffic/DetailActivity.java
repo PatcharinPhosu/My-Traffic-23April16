@@ -22,7 +22,9 @@ public class DetailActivity extends AppCompatActivity {
         ImageView traffImageView = (ImageView) findViewById(R.id.imageView2);
         traffImageView.setImageResource(getIntent().getIntExtra("Image",R.drawable.traffic_01)); // หาแหล่งกำเนิดของภาพ
 
-//        TextDetail textDetail = (TextDetail) findViewById(R.id.text/)
+
+        TextView detailMoreTextView = (TextView) findViewById(R.id.textView5);
+        detailMoreTextView.setText(getIntent().getStringExtra("DetailMore"));
 
 
 

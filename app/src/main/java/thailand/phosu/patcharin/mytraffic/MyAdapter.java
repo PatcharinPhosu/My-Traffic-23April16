@@ -52,6 +52,7 @@ public class MyAdapter extends BaseAdapter{
         ImageView iconImageView = (ImageView) view1.findViewById(R.id.imageView);
         iconImageView.setImageResource(iconInts[i]);
 
+
         return view1;
     }
 
@@ -63,15 +64,17 @@ public class MyAdapter extends BaseAdapter{
     //Explicit
     private Context context;
     private int[] iconInts;
-    private String[] titleStrings, detailStrings;
+    private String[] titleStrings, detailStrings, detailMoreStrings;
 
     // contructor คือ method หลัก
     // seter ดึงเข้ามา
     // geter ดึงออกไป
-    public MyAdapter(Context context, int[] iconInts, String[] titleStrings, String[] detailStrings) {
+    public MyAdapter(Context context, int[] iconInts, String[] titleStrings, String[] detailStrings, String[] detailMoreStrings ) {
         this.context = context;
         this.iconInts = iconInts;
         this.titleStrings = titleStrings;
         this.detailStrings = detailStrings;
+        this.detailMoreStrings = detailMoreStrings;
+
     }
 }
